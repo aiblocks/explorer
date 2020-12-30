@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>AiBlocks Explorer</ShortName>
+  <Description>Ledger explorer for the AiBlocks Network</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/png">https://explorer.aiblocks.io/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://explorer.aiblocks.io/search/{searchTerms}" />
+  <Url
+    type="application/opensearchdescription+xml"
+    rel="self"
+    template="/search.xml"
+  />
+</OpenSearchDescription>
